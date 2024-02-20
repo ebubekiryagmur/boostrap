@@ -1,0 +1,123 @@
+.navbar-brand:hover{
+    color: blue !important;
+    
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+}
+.app-badge {
+    height: 3rem;
+}
+.circle-container{
+    position: relative;
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,5,164,1) 35%, rgba(180,0,255,1) 100%);
+    border-radius: 50%;
+}
+.first-x-class{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    color: blue;
+    transform: rotate(-10deg);
+}
+.phone-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.first-circle-class{
+    position: absolute;
+    top: 5px;
+    right: 7%;
+    color: blue;
+    transform: rotate(-10deg);
+
+}
+.testimonial-container{
+    background: linear-gradient(90deg, rgba(0,80,164,1) 0%, rgba(101,1,222,1) 35%, rgba(66,7,113,1) 100%);
+}
+.second-circle-container{
+    position: relative;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(118,5,164,1) 35%, rgba(180,0,255,1) 100%);
+    border-radius: 50%;
+}
+.phone-img-2{
+    position: absolute;
+    top: 50%;
+    left:70%;
+    transform: translate(-50%,-50%);
+}
+
+.second-circle-class{
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left: -10%;
+    color: blue;
+    transform: rotate(10deg);
+}
+.second-x-class{
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 10px;
+    left: 10px;
+    color: blue;
+    transform: rotate(10deg);
+}
+.web-desing-title{
+    font-size: 60px;
+    font-weight: 400px;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.img-container{
+    position: relative;
+    background-image: url(/assets/img/twitch.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.img-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.338);
+
+}
+.start-buildind-content{
+    position: absolute;
+    z-index: 20;
+}
+.start-buildind-title{
+    font-size: 60px;
+    font-weight: 200;
+}
+.get-app-container{
+    background: linear-gradient(90deg, rgba(104,4,195,1) 0%, rgba(145,34,177,1) 35%, rgba(176,9,190,1) 100%);
+}
+.footer-text{
+    text-decoration: none;
+}
+.modal-header{
+    background: linear-gradient(90deg, rgba(104,4,195,1) 0%, rgba(145,34,177,1) 35%, rgba(176,9,190,1) 100%);
+}
+
